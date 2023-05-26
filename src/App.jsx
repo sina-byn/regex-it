@@ -1,12 +1,15 @@
+// * providers
+import RegexContextProvider from './context/RegexContextProvider';
+
 const App = () => {
   return (
     <main className='app-container flex flex-col lg:grid grid-cols-12 grid-rows-1 min-h-screen'>
       <section className='editors-pane col-span-8 xl:col-span-9 h-[90vh] lg:h-screen py-8 px-4'>
         <div className='content-wrap flex flex-col gap-y-6 h-full shadow-[0_0_6px_#D8D8D8] p-5'>
-          {/* regex context provider goes here */}
+          <RegexContextProvider>
             {/* regex editor goes here */}
             {/* text editor goes here */}
-          {/* regex context provider goes here */}
+          </RegexContextProvider>
           <footer className='text-center text-xs text-gray-500/60'>
             A simple clone of&nbsp;
             <a
