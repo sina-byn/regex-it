@@ -1,0 +1,77 @@
+.editor {
+  font-size: 1.2rem;
+}
+
+.highlighted-text {
+  background-color: #2499dd;
+  color: white;
+  margin-right: 2px;
+}
+
+.regex-editor .CodeMirror {
+  height: 50px;
+}
+
+.text-editor .CodeMirror {
+  /* height: 400px; */
+  height: 100% !important;
+}
+
+.regex-editor .CodeMirror {
+  display: flex;
+  align-items: center;
+  overflow-y: hidden !important;
+}
+
+.regex-editor .CodeMirror {
+  overflow: hidden !important;
+}
+
+.regex-editor .CodeMirror-scroll {
+  overflow-y: hidden !important;
+}
+
+.regex-editor .CodeMirror-scrollbar-filler {
+  width: 0 !important;
+}
+
+.regex-editor .CodeMirror-vscrollbar {
+  display: none !important;
+  overflow: hidden !important;
+}
+
+.regex-editor .CodeMirror-hscrollbar {
+  height: 5px !important;
+  right: 0 !important;
+}
+
+.text-editor .CodeMirror pre.CodeMirror-line {
+  line-height: 2;
+}
+
+.regex-editor .CodeMirror-scroll {
+  padding-inline-end: 3.2rem !important;
+}
+
+.regex-editor .CodeMirror-sizer {
+  display: flex;
+  width: fit-content !important;
+  align-items: center;
+  border: 0 !important;
+  overflow-x: auto !important;
+  margin-top: 0.7rem;
+}
+
+.regex-editor .CodeMirror-sizer > div {
+  order: 2;
+}
+
+.regex-editor span.editor-widget {
+  position: static !important;
+  order: 1;
+  color: black;
+}
+
+.regex-editor span.editor-widget:nth-of-type(2) {
+  order: 3;
+}

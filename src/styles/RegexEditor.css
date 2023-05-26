@@ -1,0 +1,28 @@
+.regex-group,
+.regex-group-backreference {
+  background: rgba(255, 0, 0, 0.151);
+  color: rgba(209, 0, 0, 0.486) !important;
+}
+
+.regex-charset {
+  background: rgba(0, 255, 0, 0.164);
+  color: rgba(0, 197, 49, 0.733) !important;
+}
+
+.regex-shorthand {
+  background: rgba(204, 32, 204, 0.164);
+  color: rgb(204, 32, 204) !important;
+}
+
+.regex-escaped-char {
+  color: rgb(255, 115, 0) !important;
+}
+
+.regex-anchor {
+  color: rgb(160, 19, 19);
+}
+
+.regex-quantifier,
+.regex-alternator {
+  color: rgb(93, 158, 255);
+}
