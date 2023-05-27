@@ -46,7 +46,7 @@ const App = () => {
           <h3 className='title text-lg font-bold capitalize mb-1'>
             Cheat Sheet
           </h3>
-          <Table data={data} />
+          <Table data={sidebarData} />
         </div>
       </aside>
     </main>
