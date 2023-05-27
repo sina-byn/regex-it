@@ -13,8 +13,7 @@
 }
 
 .text-editor .CodeMirror {
-  /* height: 400px; */
-  height: 100% !important;
+  height: 100%;
 }
 
 .regex-editor .CodeMirror {
