@@ -4,6 +4,10 @@ import RegexContextProvider from './context/RegexContextProvider';
 // * components
 import RegexEditor from './components/RegexEditor';
 import TextEditor from './components/TextEditor';
+import Table from './components/Table';
+
+// * data
+import sidebarData from './data/sidebar-data.json';
 
 const App = () => {
   return (
@@ -41,7 +45,7 @@ const App = () => {
           <h3 className='title text-lg font-bold capitalize mb-1'>
             Cheat Sheet
           </h3>
-          {/* cheat sheet table goes here */}
+          <Table data={data} />
         </div>
       </aside>
     </main>
