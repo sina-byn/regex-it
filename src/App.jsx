@@ -37,6 +37,7 @@ const App = () => {
             >
               Sina Bayandorian
             </a>
+            <span className='block'>No copyright infringement intended</span>
           </footer>
         </div>
       </section>
