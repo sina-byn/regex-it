@@ -3,6 +3,7 @@ import RegexContextProvider from './context/RegexContextProvider';
 
 // * components
 import RegexEditor from './components/RegexEditor';
+import TextEditor from './components/TextEditor';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
         <div className='content-wrap flex flex-col gap-y-6 h-full shadow-[0_0_6px_#D8D8D8] p-5'>
           <RegexContextProvider>
             <RegexEditor />
-            {/* text editor goes here */}
+            <TextEditor />
           </RegexContextProvider>
           <footer className='text-center text-xs text-gray-500/60'>
             A simple clone of&nbsp;
